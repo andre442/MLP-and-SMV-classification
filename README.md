@@ -22,3 +22,6 @@ The confusion the result matrix is:
 
 and the accuracy obtained was 0.868
 
+Note that the division between the training and testing database used in the classifiers was the same.
+In this repository the complete code and the dataset in .csv format are available.
+
