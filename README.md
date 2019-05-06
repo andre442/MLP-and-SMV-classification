@@ -1,5 +1,5 @@
-# MPL-and-SMV-classification-
-Simple comparative of SVM and MPL classifiers using Heart Disease UCI Database
+# MLP-and-SMV-classification-
+Simple comparative of SVM and MLP classifiers using Heart Disease UCI Database
 
 
 The features of the dataset
