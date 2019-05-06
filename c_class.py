@@ -1,6 +1,6 @@
 """
 Created on Sat May  4 15:36:25 2019
-Comparativo de classificadores SMV e Rede Multi Perceptron Layer
+Comparativo de classificadores SMV e Rede Multi Layer Perceptron
 @author: Andre Iarozinski
 """
 import pandas as pd
@@ -32,7 +32,7 @@ matriz = confusion_matrix(classe_teste, previsoes)
 sns.heatmap(matriz,cmap='coolwarm', annot=True).set_xlabel("Matriz SVM")
 # precisão svm = 0.824
 
-#utilizando rede neural MPL
+#utilizando rede neural MLP
 from sklearn.neural_network import MLPClassifier
 classificadorR = MLPClassifier(verbose = True, max_iter=1000, tol=0.000010)
 classificadorR.fit(previsores_treinamento, classe_treinamento)
@@ -42,7 +42,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 precisaoR = accuracy_score(classe_teste, previsoes)
 matrizR = confusion_matrix(classe_teste, previsoes)
 
-#plotando matriz de confusão do algoritmo MPL
+#plotando matriz de confusão do algoritmo MLP
 sns.heatmap(matrizR,cmap='coolwarm', annot=True).set_xlabel("Matriz MPL")
 # precisão da rede = 0.868
 
