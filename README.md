@@ -15,7 +15,7 @@ The confusion the result matrix is:
 
 and the accuracy obtained was 0.824
 
-Using the multi perceptron layer NN, with -> (max_iter=1000, tol=0.000010)
+Using the multi layer perceptron NN, with -> (max_iter=1000, tol=0.000010)
 The confusion the result matrix is:
 
 ![MPL](https://user-images.githubusercontent.com/50015049/57184281-cb32e600-6e8f-11e9-9bc9-4b3fce570407.png)
