@@ -1,5 +1,5 @@
 # MLP-and-SMV-classification-
-Simple comparative of SVM and MLP classifiers using Heart Disease UCI Database
+Simple comparative of SVM and MLP classifiers using Heart Disease UCI Database. This project shows in a simple way how to use the sklearn framework to generate a classifier and how to measure the results based on the confusion matrix and the accuracy.
 
 
 The features of the dataset
